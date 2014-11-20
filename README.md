@@ -23,3 +23,19 @@ When you type **svn** in your terminal  you can then press *TAB* key to complete
 **Q:** When I want to complete remote path nothing happens, any ideas?
 
 **A:** You need to be in a directory where you have checkout a repository, so the script knows which is the base path of the repostitory. Or if you are in a repo folder, sometimes the server where the repository is located may need few seconds to respond on *svn list* command (this command is used to create and show a list with all the remote directories). The delay in *svn list* command will happen only once per terminal session.
+
+----
+
+Copyright 2014 Peter Luladjiev
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
