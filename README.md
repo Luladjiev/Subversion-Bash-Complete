@@ -3,16 +3,16 @@ Subversion-Bash-Complete
 
 Bash completion for subversion commands and remote repositories
 
-###Overview
+### Overview
 This script is a merge between [Apache's subversion bash completion](http://svn.apache.org/repos/asf/subversion/trunk/tools/client-side/bash_completion) and [Androa's subversion remote repositories completion](https://gist.github.com/androa/4336613)
 
-###Installation
+### Installation
 To install the script simply add **source /path-to/svn-completion.sh** in .bashrc or .profile files in your home directory
 
-###Usage
+### Usage
 When you type **svn** in your terminal  you can then press *TAB* key to complete the commands for subversion like *merge*, *checkout*, etc. When you type for example **svn merge --** and you press the *TAB* key it will complete all of the arguments for *merge* command like *--revision*, *--non-interactive*, etc. To autocomplete remote paths simply add **^/** as argument and press *TAB* and it will start completing remote paths based on the base path of your repository.
 
-###Toubleshooting
+### Toubleshooting
 **Q:** Script is not working, what might be the problem?
 
 **A:**  On some systems bash complete might not be activated, to activate it add this code to your .bashrc file
